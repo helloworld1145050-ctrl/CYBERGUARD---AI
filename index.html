@@ -2,38 +2,94 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>CYBERGUARD X | AI Cyber Threat Detection</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="theme-color"
+        content="#071014"
+    >
 
     <meta
         name="description"
-        content="CYBERGUARD X - AI-powered phishing, scam, QR and cyber threat detection platform."
+        content="CYBERGUARD X — AI-powered phishing, scam, malicious URL and QR threat detection platform."
     >
+
+    <meta
+        name="keywords"
+        content="cybersecurity, phishing detection, scam detection, QR security, URL scanner, threat intelligence, AI security"
+    >
+
+    <title>CYBERGUARD X | AI Cyber Threat Detection</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- ================= HEADER ================= -->
+<!-- =========================================================
+     APPLICATION SHELL
+========================================================= -->
+
+<div class="app-shell">
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
 
     <header class="site-header">
 
         <div class="header-inner">
 
-            <div class="brand">
-                <div class="brand-mark">X</div>
+            <!-- BRAND -->
 
-                <div>
-                    <h1>CYBERGUARD <span>X</span></h1>
-                    <p>AI-POWERED THREAT DETECTION</p>
+            <a href="#" class="brand" aria-label="CYBERGUARD X Home">
+
+                <div class="brand-mark">
+                    X
                 </div>
-            </div>
 
-            <div class="header-status">
-                <span class="status-dot"></span>
-                <span>SECURITY ENGINE ONLINE</span>
+                <div class="brand-text">
+
+                    <h1>
+                        CYBERGUARD <span>X</span>
+                    </h1>
+
+                    <p>
+                        AI-POWERED THREAT DETECTION
+                    </p>
+
+                </div>
+
+            </a>
+
+
+            <!-- HEADER STATUS -->
+
+            <div class="header-actions">
+
+                <div
+                    class="header-status"
+                    id="engineStatus"
+                    aria-live="polite"
+                >
+
+                    <span class="status-dot"></span>
+
+                    <span>
+                        SECURITY ENGINE ONLINE
+                    </span>
+
+                </div>
+
+                <div class="system-time">
+                    <span id="systemTime">--:--:--</span>
+                    <small>LOCAL</small>
+                </div>
+
             </div>
 
         </div>
@@ -41,99 +97,258 @@
     </header>
 
 
-    <!-- ================= HERO ================= -->
+    <!-- =====================================================
+         MAIN APPLICATION
+    ====================================================== -->
 
     <main>
 
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
         <section class="hero">
 
-            <div class="hero-content">
+            <div class="hero-grid">
 
-                <div class="eyebrow">
-                    <span>●</span>
-                    NEXT-GENERATION CYBER DEFENSE
+                <div class="hero-content">
+
+                    <div class="eyebrow">
+                        <span>●</span>
+                        NEXT-GENERATION CYBER DEFENSE
+                    </div>
+
+                    <h2>
+                        Detect threats before
+                        <span>they reach you.</span>
+                    </h2>
+
+                    <p>
+                        Analyze suspicious URLs, messages and QR codes
+                        using multi-signal threat intelligence and
+                        explainable AI risk analysis.
+                    </p>
+
+                    <div class="hero-tags">
+
+                        <span>
+                            URL INTELLIGENCE
+                        </span>
+
+                        <span>
+                            PHISHING DETECTION
+                        </span>
+
+                        <span>
+                            QR PROTECTION
+                        </span>
+
+                        <span>
+                            XAI
+                        </span>
+
+                    </div>
+
                 </div>
 
-                <h2>
-                    Detect threats before
-                    <span>they reach you.</span>
-                </h2>
 
-                <p>
-                    Analyze suspicious URLs, scam messages and QR codes
-                    using multi-signal AI-powered threat intelligence.
-                </p>
+                <!-- HERO SYSTEM VISUAL -->
+
+                <div
+                    class="hero-visual"
+                    aria-hidden="true"
+                >
+
+                    <div class="radar">
+
+                        <div class="radar-ring ring-1"></div>
+                        <div class="radar-ring ring-2"></div>
+                        <div class="radar-ring ring-3"></div>
+
+                        <div class="radar-sweep"></div>
+
+                        <div class="radar-center">
+                            X
+                        </div>
+
+                        <div class="radar-node node-1"></div>
+                        <div class="radar-node node-2"></div>
+                        <div class="radar-node node-3"></div>
+
+                    </div>
+
+                </div>
 
             </div>
 
         </section>
 
 
-        <!-- ================= METRICS ================= -->
+        <!-- =================================================
+             SECURITY CAPABILITIES
+        ================================================== -->
 
-        <section class="metric-strip">
+        <section
+            class="metric-strip"
+            aria-label="Security capabilities"
+        >
 
             <div class="metric-card">
-                <div class="metric-icon">🔗</div>
+
+                <div class="metric-icon">
+                    🔗
+                </div>
+
                 <div>
                     <strong>URL</strong>
                     <span>Threat Analysis</span>
                 </div>
+
             </div>
 
+
             <div class="metric-card">
-                <div class="metric-icon">💬</div>
+
+                <div class="metric-icon">
+                    💬
+                </div>
+
                 <div>
                     <strong>TEXT</strong>
                     <span>Scam Detection</span>
                 </div>
+
             </div>
 
+
             <div class="metric-card">
-                <div class="metric-icon">▣</div>
+
+                <div class="metric-icon">
+                    ▣
+                </div>
+
                 <div>
                     <strong>QR</strong>
                     <span>Quishing Defense</span>
                 </div>
+
             </div>
 
+
             <div class="metric-card">
-                <div class="metric-icon">🧠</div>
+
+                <div class="metric-icon">
+                    🧠
+                </div>
+
                 <div>
                     <strong>AI</strong>
                     <span>Risk Intelligence</span>
                 </div>
+
+            </div>
+
+
+            <div class="metric-card">
+
+                <div class="metric-icon">
+                    🛡
+                </div>
+
+                <div>
+                    <strong>XAI</strong>
+                    <span>Explainable Results</span>
+                </div>
+
             </div>
 
         </section>
 
 
-        <!-- ================= WORKSPACE ================= -->
+        <!-- =================================================
+             WORKSPACE
+        ================================================== -->
 
         <section class="workspace-grid">
 
-            <!-- SCANNER -->
+
+            <!-- =============================================
+                 THREAT SCANNER
+            ============================================== -->
 
             <div class="card scanner-card">
 
                 <div class="card-header">
 
                     <div>
+
                         <div class="section-label">
                             THREAT SCANNER
                         </div>
 
-                        <h3>Analyze suspicious content</h3>
+                        <h3>
+                            Analyze suspicious content
+                        </h3>
 
                         <p>
-                            Enter a URL, message or suspicious text.
+                            Scan a URL, message, email text or
+                            suspicious content for security indicators.
                         </p>
+
                     </div>
 
-                    <div class="live-indicator">
+                    <div
+                        class="live-indicator"
+                        id="scannerLiveStatus"
+                    >
+
                         <span></span>
-                        LIVE
+                        READY
+
                     </div>
+
+                </div>
+
+
+                <!-- SCAN TYPE -->
+
+                <div class="scan-type-selector">
+
+                    <button
+                        type="button"
+                        class="scan-type-btn active"
+                        data-scan-type="auto"
+                        aria-pressed="true"
+                    >
+                        AUTO
+                    </button>
+
+                    <button
+                        type="button"
+                        class="scan-type-btn"
+                        data-scan-type="url"
+                        aria-pressed="false"
+                    >
+                        URL
+                    </button>
+
+                    <button
+                        type="button"
+                        class="scan-type-btn"
+                        data-scan-type="message"
+                        aria-pressed="false"
+                    >
+                        MESSAGE
+                    </button>
+
+                    <button
+                        type="button"
+                        class="scan-type-btn"
+                        data-scan-type="qr"
+                        aria-pressed="false"
+                    >
+                        QR
+                    </button>
 
                 </div>
 
@@ -142,15 +357,43 @@
 
                 <div class="input-group">
 
-                    <label for="threatInput">
-                        URL / MESSAGE / TEXT
-                    </label>
+                    <div class="input-label-row">
+
+                        <label for="threatInput">
+                            URL / MESSAGE / TEXT
+                        </label>
+
+                        <span id="characterCount">
+                            0 characters
+                        </span>
+
+                    </div>
 
                     <textarea
                         id="threatInput"
-                        placeholder="Paste a suspicious URL or message here..."
-                        rows="7"
+                        name="threatInput"
+                        placeholder="Paste a suspicious URL, SMS, email, social-media message or other suspicious text here..."
+                        rows="8"
+                        maxlength="10000"
+                        autocomplete="off"
+                        spellcheck="false"
                     ></textarea>
+
+                    <div class="input-helper">
+
+                        <span>
+                            Supports URLs, SMS, emails and suspicious messages
+                        </span>
+
+                        <button
+                            type="button"
+                            id="clearInputBtn"
+                            class="text-btn"
+                        >
+                            CLEAR
+                        </button>
+
+                    </div>
 
                 </div>
 
@@ -162,11 +405,16 @@
                     <div class="upload-header">
 
                         <div>
-                            <label>QR / QUISHING SCAN</label>
+
+                            <label>
+                                QR / QUISHING SCAN
+                            </label>
 
                             <p>
-                                Upload a QR image to inspect its destination.
+                                Upload a QR image to inspect its decoded
+                                destination and identify suspicious links.
                             </p>
+
                         </div>
 
                     </div>
@@ -175,6 +423,7 @@
                     <label
                         for="qrFileInput"
                         class="qr-upload-box"
+                        id="qrUploadBox"
                     >
 
                         <div class="upload-icon">
@@ -186,7 +435,7 @@
                         </strong>
 
                         <span>
-                            PNG, JPG or WEBP
+                            PNG, JPG or WEBP · Max 10 MB
                         </span>
 
                         <small id="fileNameDisplay">
@@ -198,14 +447,100 @@
                     <input
                         type="file"
                         id="qrFileInput"
+                        name="qrFile"
                         accept="image/png,image/jpeg,image/webp"
                         hidden
                     >
 
+                    <div
+                        id="qrPreview"
+                        class="qr-preview"
+                        hidden
+                    >
+
+                        <img
+                            id="qrPreviewImage"
+                            src=""
+                            alt="Uploaded QR preview"
+                        >
+
+                        <div class="qr-preview-info">
+
+                            <strong>
+                                QR image loaded
+                            </strong>
+
+                            <span id="qrDecodedText">
+                                Waiting for QR decoding...
+                            </span>
+
+                        </div>
+
+                        <button
+                            type="button"
+                            id="removeQrBtn"
+                            class="text-btn"
+                        >
+                            REMOVE
+                        </button>
+
+                    </div>
+
                 </div>
 
 
-                <!-- ACTION -->
+                <!-- SCAN OPTIONS -->
+
+                <div class="scanner-options">
+
+                    <label class="checkbox-control">
+
+                        <input
+                            type="checkbox"
+                            id="deepScanToggle"
+                            checked
+                        >
+
+                        <span>
+                            Deep analysis
+                        </span>
+
+                    </label>
+
+
+                    <label class="checkbox-control">
+
+                        <input
+                            type="checkbox"
+                            id="redirectScanToggle"
+                            checked
+                        >
+
+                        <span>
+                            Trace redirects
+                        </span>
+
+                    </label>
+
+
+                    <label class="checkbox-control">
+
+                        <input
+                            type="checkbox"
+                            id="explainableToggle"
+                            checked
+                        >
+
+                        <span>
+                            Explain results
+                        </span>
+
+                    </label>
+
+                </div>
+
+
+                <!-- ACTION BUTTON -->
 
                 <div class="scanner-actions">
 
@@ -214,20 +549,44 @@
                         class="primary-btn"
                         type="button"
                     >
-                        <span>SCAN THREAT</span>
-                        <span class="button-arrow">→</span>
+
+                        <span class="button-icon">
+                            ◈
+                        </span>
+
+                        <span>
+                            SCAN THREAT
+                        </span>
+
+                        <span class="button-arrow">
+                            →
+                        </span>
+
+                    </button>
+
+                    <button
+                        id="sampleScanBtn"
+                        class="secondary-btn"
+                        type="button"
+                    >
+                        LOAD SAMPLE
                     </button>
 
                 </div>
 
 
+                <!-- PRIVACY -->
+
                 <div class="privacy-note">
 
-                    <span>🔒</span>
+                    <span>
+                        🔒
+                    </span>
 
                     <p>
                         Your input is analyzed for security signals.
-                        Avoid entering passwords, OTPs or private credentials.
+                        Never enter passwords, OTPs, private keys,
+                        authentication tokens or other credentials.
                     </p>
 
                 </div>
@@ -235,7 +594,9 @@
             </div>
 
 
-            <!-- QUICK INFO -->
+            <!-- =============================================
+                 DETECTION ENGINE
+            ============================================== -->
 
             <aside class="card info-card">
 
@@ -248,51 +609,144 @@
                 </h3>
 
                 <p>
-                    CYBERGUARD X combines multiple security indicators
-                    to produce a unified threat assessment.
+                    CYBERGUARD X combines multiple indicators to
+                    produce a unified and explainable threat assessment.
                 </p>
+
+
+                <div class="engine-status-box">
+
+                    <div class="engine-pulse"></div>
+
+                    <div>
+                        <strong>
+                            ANALYSIS CORE
+                        </strong>
+
+                        <span>
+                            Operational
+                        </span>
+                    </div>
+
+                </div>
 
 
                 <div class="capability-list">
 
                     <div class="capability-item">
+
                         <span>01</span>
+
                         <div>
-                            <strong>URL Intelligence</strong>
+
+                            <strong>
+                                URL Intelligence
+                            </strong>
+
                             <small>
-                                Domain, redirect and spoofing analysis
+                                Domain, redirects, HTTPS and
+                                suspicious URL patterns
                             </small>
+
                         </div>
+
                     </div>
 
+
                     <div class="capability-item">
+
                         <span>02</span>
+
                         <div>
-                            <strong>Scam Detection</strong>
+
+                            <strong>
+                                Scam Detection
+                            </strong>
+
                             <small>
-                                Urgency, KYC, OTP and financial signals
+                                Urgency, KYC, OTP, payment and
+                                credential-harvesting signals
                             </small>
+
                         </div>
+
                     </div>
 
+
                     <div class="capability-item">
+
                         <span>03</span>
+
                         <div>
-                            <strong>QR Protection</strong>
+
+                            <strong>
+                                QR Protection
+                            </strong>
+
                             <small>
-                                QR destination and quishing analysis
+                                QR decoding, destination inspection
+                                and quishing analysis
                             </small>
+
                         </div>
+
                     </div>
 
+
                     <div class="capability-item">
+
                         <span>04</span>
+
                         <div>
-                            <strong>Explainable AI</strong>
+
+                            <strong>
+                                Explainable AI
+                            </strong>
+
                             <small>
-                                Understand why a threat was detected
+                                Human-readable evidence behind
+                                the security assessment
                             </small>
+
                         </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ANALYSIS PIPELINE -->
+
+                <div class="analysis-pipeline">
+
+                    <div class="pipeline-title">
+                        ANALYSIS PIPELINE
+                    </div>
+
+                    <div class="pipeline">
+
+                        <span>
+                            INPUT
+                        </span>
+
+                        <i>→</i>
+
+                        <span>
+                            SIGNALS
+                        </span>
+
+                        <i>→</i>
+
+                        <span>
+                            RISK
+                        </span>
+
+                        <i>→</i>
+
+                        <span>
+                            ACTION
+                        </span>
+
                     </div>
 
                 </div>
@@ -302,12 +756,83 @@
         </section>
 
 
-        <!-- ================= RESULTS ================= -->
+        <!-- =================================================
+             ANALYSIS PROGRESS
+        ================================================== -->
+
+        <section
+            id="analysisProgress"
+            class="card analysis-progress-card"
+            hidden
+        >
+
+            <div class="progress-header">
+
+                <div>
+
+                    <div class="section-label">
+                        ANALYSIS IN PROGRESS
+                    </div>
+
+                    <h3 id="analysisStage">
+                        Initializing security analysis...
+                    </h3>
+
+                </div>
+
+                <strong id="analysisPercent">
+                    0%
+                </strong>
+
+            </div>
+
+            <div class="progress-track">
+
+                <div
+                    id="analysisProgressBar"
+                    class="progress-bar"
+                    style="width:0%;"
+                ></div>
+
+            </div>
+
+            <div class="analysis-steps">
+
+                <span id="stepInput">
+                    INPUT
+                </span>
+
+                <span id="stepSignals">
+                    SIGNALS
+                </span>
+
+                <span id="stepThreat">
+                    THREAT INTELLIGENCE
+                </span>
+
+                <span id="stepRisk">
+                    RISK MODEL
+                </span>
+
+                <span id="stepReport">
+                    REPORT
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             RESULTS DASHBOARD
+        ================================================== -->
 
         <section class="dashboard-grid">
 
 
-            <!-- RISK SCORE -->
+            <!-- =============================================
+                 RISK SCORE
+            ============================================== -->
 
             <div class="card risk-card">
 
@@ -318,17 +843,24 @@
                 <div class="risk-header">
 
                     <div>
-                        <h3>Risk Score</h3>
 
-                        <p id="threatStatus">
+                        <h3>
+                            Risk Score
+                        </h3>
+
+                        <p
+                            id="threatStatus"
+                            aria-live="polite"
+                        >
                             Waiting for analysis...
                         </p>
+
                     </div>
 
                     <div
                         id="severityBadge"
                         class="severity-badge"
-                        style="display:none;"
+                        hidden
                     >
                         LOW
                     </div>
@@ -339,8 +871,22 @@
                 <div class="risk-score-display">
 
                     <div class="risk-score-number">
-                        <span id="riskScore">--</span>
-                        <small>/100</small>
+
+                        <span id="riskScore">
+                            --
+                        </span>
+
+                        <small>
+                            /100
+                        </small>
+
+                    </div>
+
+                    <div
+                        id="riskClassification"
+                        class="risk-classification"
+                    >
+                        NO ASSESSMENT
                     </div>
 
                 </div>
@@ -354,24 +900,101 @@
                         style="width:0%;"
                     ></div>
 
+                    <div class="meter-marker marker-25"></div>
+                    <div class="meter-marker marker-50"></div>
+                    <div class="meter-marker marker-75"></div>
+
                 </div>
 
 
                 <div class="risk-scale">
 
-                    <span>LOW</span>
-                    <span>MEDIUM</span>
-                    <span>HIGH</span>
-                    <span>CRITICAL</span>
+                    <span>
+                        LOW
+                    </span>
+
+                    <span>
+                        MEDIUM
+                    </span>
+
+                    <span>
+                        HIGH
+                    </span>
+
+                    <span>
+                        CRITICAL
+                    </span>
 
                 </div>
 
 
+                <!-- RISK FACTORS -->
+
+                <div class="risk-factor-grid">
+
+                    <div class="risk-factor">
+
+                        <span>
+                            URL
+                        </span>
+
+                        <strong id="urlRisk">
+                            --
+                        </strong>
+
+                    </div>
+
+                    <div class="risk-factor">
+
+                        <span>
+                            SOCIAL
+                        </span>
+
+                        <strong id="socialRisk">
+                            --
+                        </strong>
+
+                    </div>
+
+                    <div class="risk-factor">
+
+                        <span>
+                            CREDENTIAL
+                        </span>
+
+                        <strong id="credentialRisk">
+                            --
+                        </strong>
+
+                    </div>
+
+                    <div class="risk-factor">
+
+                        <span>
+                            FINANCIAL
+                        </span>
+
+                        <strong id="financialRisk">
+                            --
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- EXPLANATION -->
+
                 <div class="explanation-box">
 
                     <div class="explanation-title">
-                        <span>◈</span>
+
+                        <span>
+                            ◈
+                        </span>
+
                         AI EXPLANATION
+
                     </div>
 
                     <p id="explanation">
@@ -383,7 +1006,9 @@
             </div>
 
 
-            <!-- XAI -->
+            <!-- =============================================
+                 XAI FORENSICS
+            ============================================== -->
 
             <div
                 class="card forensics-card"
@@ -397,11 +1022,16 @@
                 <div class="card-header compact">
 
                     <div>
-                        <h3>Explainable AI Signals</h3>
+
+                        <h3>
+                            Explainable AI Signals
+                        </h3>
 
                         <p>
-                            Security indicators contributing to the assessment.
+                            Security indicators contributing to
+                            the assessment.
                         </p>
+
                     </div>
 
                     <span class="ai-badge">
@@ -417,11 +1047,15 @@
                 >
 
                     <div class="empty-state">
-                        <span>⌁</span>
+
+                        <span>
+                            ⌁
+                        </span>
 
                         <p>
                             No forensic signals available yet.
                         </p>
+
                     </div>
 
                 </div>
@@ -429,7 +1063,9 @@
             </div>
 
 
-            <!-- REDIRECT CHAIN -->
+            <!-- =============================================
+                 REDIRECT CHAIN
+            ============================================== -->
 
             <div
                 class="card redirect-card"
@@ -443,11 +1079,16 @@
                 <div class="card-header compact">
 
                     <div>
-                        <h3>Redirect Chain</h3>
+
+                        <h3>
+                            Redirect Chain
+                        </h3>
 
                         <p>
-                            URL navigation path discovered during analysis.
+                            URL navigation path discovered
+                            during analysis.
                         </p>
+
                     </div>
 
                     <span class="trace-badge">
@@ -463,11 +1104,15 @@
                 >
 
                     <div class="empty-state">
-                        <span>↗</span>
+
+                        <span>
+                            ↗
+                        </span>
 
                         <p>
                             No redirect activity detected yet.
                         </p>
+
                     </div>
 
                 </div>
@@ -475,7 +1120,9 @@
             </div>
 
 
-            <!-- SECURITY STATUS -->
+            <!-- =============================================
+                 SECURITY STATUS
+            ============================================== -->
 
             <div class="card status-card">
 
@@ -490,13 +1137,15 @@
                     </div>
 
                     <div>
+
                         <strong>
                             Threat Detection Engine
                         </strong>
 
-                        <span>
+                        <span id="systemStatusText">
                             Ready for analysis
                         </span>
+
                     </div>
 
                 </div>
@@ -505,23 +1154,78 @@
                 <div class="status-list">
 
                     <div>
-                        <span>AI Risk Engine</span>
-                        <b>READY</b>
+
+                        <span>
+                            AI Risk Engine
+                        </span>
+
+                        <b
+                            id="aiEngineStatus"
+                            class="status-ready"
+                        >
+                            READY
+                        </b>
+
                     </div>
 
                     <div>
-                        <span>URL Scanner</span>
-                        <b>READY</b>
+
+                        <span>
+                            URL Scanner
+                        </span>
+
+                        <b
+                            id="urlScannerStatus"
+                            class="status-ready"
+                        >
+                            READY
+                        </b>
+
                     </div>
 
                     <div>
-                        <span>QR Scanner</span>
-                        <b>READY</b>
+
+                        <span>
+                            QR Scanner
+                        </span>
+
+                        <b
+                            id="qrScannerStatus"
+                            class="status-ready"
+                        >
+                            READY
+                        </b>
+
                     </div>
 
                     <div>
-                        <span>Explainability</span>
-                        <b>READY</b>
+
+                        <span>
+                            Explainability
+                        </span>
+
+                        <b
+                            id="xaiStatus"
+                            class="status-ready"
+                        >
+                            READY
+                        </b>
+
+                    </div>
+
+                    <div>
+
+                        <span>
+                            Report Engine
+                        </span>
+
+                        <b
+                            id="reportStatus"
+                            class="status-ready"
+                        >
+                            READY
+                        </b>
+
                     </div>
 
                 </div>
@@ -531,7 +1235,241 @@
         </section>
 
 
-        <!-- ================= REPORT ================= -->
+        <!-- =================================================
+             IOC / URL DETAILS
+        ================================================== -->
+
+        <section class="card indicators-card">
+
+            <div class="section-label">
+                INDICATORS OF COMPROMISE
+            </div>
+
+            <div class="card-header compact">
+
+                <div>
+
+                    <h3>
+                        Security Indicators
+                    </h3>
+
+                    <p>
+                        Extracted technical details from the
+                        current analysis.
+                    </p>
+
+                </div>
+
+                <span class="trace-badge">
+                    IOC
+                </span>
+
+            </div>
+
+
+            <div class="indicator-grid">
+
+                <div class="indicator-item">
+
+                    <span>
+                        DETECTED TYPE
+                    </span>
+
+                    <strong id="detectedType">
+                        --
+                    </strong>
+
+                </div>
+
+                <div class="indicator-item">
+
+                    <span>
+                        DOMAIN
+                    </span>
+
+                    <strong id="detectedDomain">
+                        --
+                    </strong>
+
+                </div>
+
+                <div class="indicator-item">
+
+                    <span>
+                        PROTOCOL
+                    </span>
+
+                    <strong id="detectedProtocol">
+                        --
+                    </strong>
+
+                </div>
+
+                <div class="indicator-item">
+
+                    <span>
+                        DOMAIN AGE
+                    </span>
+
+                    <strong id="domainAge">
+                        --
+                    </strong>
+
+                </div>
+
+                <div class="indicator-item">
+
+                    <span>
+                        HTTPS
+                    </span>
+
+                    <strong id="httpsStatus">
+                        --
+                    </strong>
+
+                </div>
+
+                <div class="indicator-item">
+
+                    <span>
+                        REDIRECTS
+                    </span>
+
+                    <strong id="redirectCount">
+                        --
+                    </strong>
+
+                </div>
+
+                <div class="indicator-item">
+
+                    <span>
+                        QR DESTINATION
+                    </span>
+
+                    <strong id="qrDestination">
+                        --
+                    </strong>
+
+                </div>
+
+                <div class="indicator-item">
+
+                    <span>
+                        ANALYSIS ID
+                    </span>
+
+                    <strong id="analysisId">
+                        --
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             RECOMMENDED ACTION
+        ================================================== -->
+
+        <section
+            class="card action-card"
+            id="recommendedActionCard"
+        >
+
+            <div class="action-icon">
+                🛡
+            </div>
+
+            <div class="action-content">
+
+                <div class="section-label">
+                    RECOMMENDED ACTION
+                </div>
+
+                <h3 id="recommendedActionTitle">
+                    Waiting for threat analysis
+                </h3>
+
+                <p id="recommendedActionText">
+                    Run a scan to receive security guidance
+                    based on the detected indicators.
+                </p>
+
+            </div>
+
+            <div
+                class="action-severity"
+                id="actionSeverity"
+            >
+                —
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SCAN HISTORY
+        ================================================== -->
+
+        <section class="card history-card">
+
+            <div class="card-header compact">
+
+                <div>
+
+                    <div class="section-label">
+                        ACTIVITY
+                    </div>
+
+                    <h3>
+                        Recent Scan History
+                    </h3>
+
+                    <p>
+                        Local scan history for this session.
+                    </p>
+
+                </div>
+
+                <button
+                    type="button"
+                    id="clearHistoryBtn"
+                    class="text-btn"
+                >
+                    CLEAR HISTORY
+                </button>
+
+            </div>
+
+
+            <div
+                id="scanHistory"
+                class="history-list"
+            >
+
+                <div class="empty-state">
+
+                    <span>
+                        ◷
+                    </span>
+
+                    <p>
+                        No scans performed during this session.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SECURITY REPORT
+        ================================================== -->
 
         <section class="report-section">
 
@@ -548,42 +1486,70 @@
                     </h3>
 
                     <p>
-                        Download the current threat assessment
-                        and forensic findings.
+                        Download the current threat assessment,
+                        security indicators and forensic findings.
                     </p>
 
                 </div>
 
 
-                <button
-                    id="downloadReportBtn"
-                    class="secondary-btn"
-                    type="button"
-                >
-                    <span>DOWNLOAD REPORT</span>
-                    <span>↓</span>
-                </button>
+                <div class="report-actions">
+
+                    <button
+                        id="downloadReportBtn"
+                        class="secondary-btn"
+                        type="button"
+                    >
+
+                        <span>
+                            DOWNLOAD REPORT
+                        </span>
+
+                        <span>
+                            ↓
+                        </span>
+
+                    </button>
+
+                    <button
+                        id="copyReportBtn"
+                        class="secondary-btn"
+                        type="button"
+                    >
+                        COPY SUMMARY
+                    </button>
+
+                </div>
 
             </div>
 
         </section>
 
 
-        <!-- ================= FOOTER INFO ================= -->
+        <!-- =================================================
+             SECURITY PRINCIPLES
+        ================================================== -->
 
         <section class="info-grid">
 
+
             <div class="info-panel">
 
-                <span class="info-icon">🛡</span>
+                <span class="info-icon">
+                    🛡
+                </span>
 
                 <div>
-                    <strong>Defensive Security</strong>
+
+                    <strong>
+                        Defensive Security
+                    </strong>
 
                     <p>
                         Designed to identify suspicious digital
                         activity before users interact with it.
                     </p>
+
                 </div>
 
             </div>
@@ -591,15 +1557,21 @@
 
             <div class="info-panel">
 
-                <span class="info-icon">🧠</span>
+                <span class="info-icon">
+                    🧠
+                </span>
 
                 <div>
-                    <strong>Explainable Detection</strong>
+
+                    <strong>
+                        Explainable Detection
+                    </strong>
 
                     <p>
                         Risk results are accompanied by signals
                         explaining the assessment.
                     </p>
+
                 </div>
 
             </div>
@@ -607,15 +1579,43 @@
 
             <div class="info-panel">
 
-                <span class="info-icon">⚡</span>
+                <span class="info-icon">
+                    ⚡
+                </span>
 
                 <div>
-                    <strong>Real-Time Analysis</strong>
+
+                    <strong>
+                        Real-Time Analysis
+                    </strong>
 
                     <p>
-                        Scan suspicious content directly through
-                        the connected security backend.
+                        Analyze suspicious content through the
+                        connected security backend.
                     </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="info-panel">
+
+                <span class="info-icon">
+                    🔐
+                </span>
+
+                <div>
+
+                    <strong>
+                        Privacy First
+                    </strong>
+
+                    <p>
+                        Avoid entering credentials or sensitive
+                        authentication information into the scanner.
+                    </p>
+
                 </div>
 
             </div>
@@ -625,13 +1625,17 @@
     </main>
 
 
-    <!-- ================= FOOTER ================= -->
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
 
     <footer class="site-footer">
 
-        <div>
+        <div class="footer-brand">
 
-            <strong>CYBERGUARD X</strong>
+            <strong>
+                CYBERGUARD X
+            </strong>
 
             <span>
                 AI-Powered Cyber Threat Detection Platform
@@ -639,16 +1643,123 @@
 
         </div>
 
-        <div>
-            Defensive cybersecurity research & prototype
+
+        <div class="footer-meta">
+
+            <span>
+                Defensive cybersecurity research & prototype
+            </span>
+
+            <span>
+                v1.0
+            </span>
+
         </div>
 
     </footer>
 
 
-    <!-- IMPORTANT: KEEP JAVASCRIPT LAST -->
+    <!-- =====================================================
+         NOTIFICATION / TOAST
+    ====================================================== -->
+
+    <div
+        id="toast"
+        class="toast"
+        role="status"
+        aria-live="polite"
+        hidden
+    >
+
+        <span id="toastIcon">
+            ✓
+        </span>
+
+        <div>
+
+            <strong id="toastTitle">
+                Notification
+            </strong>
+
+            <p id="toastMessage">
+                —
+            </p>
+
+        </div>
+
+        <button
+            type="button"
+            id="closeToastBtn"
+            aria-label="Close notification"
+        >
+            ×
+        </button>
+
+    </div>
+
+
+    <!-- =====================================================
+         MODAL: CONFIRM / DETAILS
+    ====================================================== -->
+
+    <div
+        id="detailsModal"
+        class="modal"
+        hidden
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="detailsModalTitle"
+    >
+
+        <div class="modal-overlay"></div>
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <div>
+
+                    <div class="section-label">
+                        SECURITY DETAILS
+                    </div>
+
+                    <h3 id="detailsModalTitle">
+                        Analysis Details
+                    </h3>
+
+                </div>
+
+                <button
+                    type="button"
+                    id="closeModalBtn"
+                    class="modal-close"
+                    aria-label="Close modal"
+                >
+                    ×
+                </button>
+
+            </div>
+
+            <div
+                id="modalBody"
+                class="modal-body"
+            >
+                <!-- Dynamic details inserted by script.js -->
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+         IMPORTANT: Keep JavaScript last.
+    ====================================================== -->
 
     <script src="script.js"></script>
+
+</div>
 
 </body>
 </html>
